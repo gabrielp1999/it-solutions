@@ -25,6 +25,15 @@ router.get("/", (req, resp) => {
       });
     });
     users.splice(5, 5);
+    users.sort(function (a, b) {
+      if (a.name > b.name) {
+        return 1;
+      }
+      if (a.name < b.name) {
+        return -1;
+      }
+      return 0;
+    });
     resp.status(200).send(users);
   });
 });

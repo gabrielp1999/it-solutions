@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+}
+
+
+body{
+  margin: 0;
+}
+.modal-content {
+  min-width: 650px !important;
+}
