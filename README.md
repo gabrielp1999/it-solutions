@@ -22,7 +22,7 @@
 ## Tecnologias que foram utilizadas:
 
 - ReactJs
-- Nodejs
+- NodeJs
 - Express
 - Styled-components
 - Nodemon
